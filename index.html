@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/js.js"></script>
+</head>
+<header class="flex-rows headerFlex headerFlexStyle">
+    <div class="navFlex navFlexStyle">
+        <li class="liNavFlexStyle">Home</li>
+        <li class="liNavFlexStyle">Gallery</li>
+        <li class="liNavFlexStyle">About</li>
+        <li class="liNavFlexStyle">Contacts</li>
+        <li class="liNavFlexStyle">Other</li>
+    </div>
+</header>
+<body>
+    <main class="mainFlex mainFlexStyle">
+
+        <div class="flex-rows main">
+            <img src="images/img0.jpg" alt="" class="mainPhoto mainPhotoStyle">
+        </div>
+        <div class="flex-rows">
+            <img onclick="swap(this)" src="images/img1.jpg" alt="" class="imgMin imgMinStyle">
+            <img onclick="swap(this)" src="images/img2.jpg" alt="" class="imgMin imgMinStyle">
+            <img onclick="swap(this)" src="images/img3.jpg" alt="" class="imgMin imgMinStyle">
+        </div>
+        <div class="flex-rows buttonStyle" >
+            <button onclick="backSwap()">Back</button>
+            <button onclick="nextSwap()">Next</button>
+        </div>
+    </main>
+  
+</body>
+</html>

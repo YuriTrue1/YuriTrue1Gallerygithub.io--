@@ -1,0 +1,58 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.headerFlex{
+    flex: 100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headerFlexStyle{
+    background-color: grey;
+    height: 50px;
+    margin-bottom: 5%;
+}
+.navFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.liNavFlexStyle{
+    padding-left: 5%;
+    list-style-type: none;
+
+}
+.mainFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-rows{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.mainPhotoStyle{
+    border: 1px red solid;
+    height: 300px;
+    width: 500px;
+    
+}
+.imgMinStyle{
+    border: 1px red solid;
+    height: 150px;
+    width: 200px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.buttonStyle{
+margin-top: 1%;
+}
